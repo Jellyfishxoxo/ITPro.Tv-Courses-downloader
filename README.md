@@ -5,7 +5,7 @@
 2. Login to the ITPro.tv site on a web browser after opening the network tab on the developer tools
 3. Click dashboard and search for "passedToken" and copy the token starting with "eyJ" completely to clipboard
 ![Token Instructions](https://i.imgur.com/gCrSSnQ.png)
-4. Open the itProDownloaderConfig.json in an text editor of your choice.
+4. Open the itProDownloaderConfig.json in an text editor of your choice. (rename itProDownloaderConfig.json to itprodownloaderConfig.json)
 5. paste the token by replacing the "eyJxxxx.eyJxxxxx0" in token string
 6. Run the script using python. eg. python3 itprotv.py
 7. It should list all the Categories in the site.
